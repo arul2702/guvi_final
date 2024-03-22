@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card mt-5">
                     <form class="card-body" id="profileForm">
                         <h2 class="card-title text-center mb-4">User Profile</h2>
                         <div class="form-group">
                             <label for="phone_number">Phone No:</label>
-                            <input id="phone_number" type="text" name="text"></input>
+                            <input id="phone_number" class="form-control" placeholder="Phone no" name="text"></input>
                         </div>
                         <div class="form-group">
                             <label for="dob">Date of Birth:</label>
-                            <input id="dob" type="date" name="dob"></input>
+                            <input id="dob" type="date" class="form-control" name="dob"></input>
                         </div>
                         <div class="form-group">
                             <label for="gender">Gender:</label>
-                            <input id="gender" type="text" name="gender"></input>
+                            <input id="gender" type="text" class="form-control" name="gender" placeholder="gender"></input>
                         </div>
                         <button class="btn btn-primary btn-block" id="profilebtn">Update Profile</button>
                     </form>

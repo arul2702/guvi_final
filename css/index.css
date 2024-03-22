@@ -1,0 +1,18 @@
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.card {
+    background-color: #333333;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+.card-title {
+    color: #ffffff;
+}
+.text-center a {
+    color: #007bff;
+}
+.text-center a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
