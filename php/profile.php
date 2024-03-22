@@ -10,7 +10,7 @@
     $phone_number = $_POST['phone_number'] ?? '';
     $dob = $_POST['dob'] ?? '';
     $gender = $_POST['gender'] ?? '';
-    
+
     $document = [
         'phone_number' => $phone_number,
         'dob' => $dob,
